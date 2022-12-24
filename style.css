@@ -1,0 +1,97 @@
+body::before{
+    content: "";
+    background: url('./regback.jpg')  center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+#registration{
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+}
+/* #registration::before{
+    content: "";
+    background: url('./regback.jpg')  center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+} */
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formcontent{
+    color: white;
+    display: block;
+    width: 119%;
+    border: 2px solid black;
+    background-color: #725c8f;
+    margin: 2px 2px;
+    padding: 17px 11px;
+    font-size: 23px;
+    border-radius: 12px;
+}
+
+.formbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width:  50%; */
+    /* border: 2px solid purple; */
+    padding: 2px 2px;
+    border-radius: 9px;
+}
+#regbutton{
+    margin: 4px;
+    border-radius: 9px;
+    font-size: 21px;
+    background-color: #8b308f;
+    color: white;
+}
+#regbutton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #8b308f;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+input{
+height: 2rem;
+}
+
+.bar ul{
+    display: flex;
+}
+.bar ul li{
+    list-style: none;
+    border: 2px solid #3a0404;
+    margin: 2px 7px;
+    padding: 5px 14px;
+    background-color: #8b58c4;
+    font-size: 20px;
+    color: yellow;
+    border-radius: 16px;
+}
+.bar ul li:hover{
+    list-style: none;
+    border: 2px solid #3a0404;
+    margin: 2px 7px;
+    padding: 5px 14px;
+    color: #8b58c4;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 16px;
+}
